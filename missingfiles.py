@@ -5,8 +5,8 @@ from subprocess import Popen, PIPE
 from os.path import isfile, isdir
 
 '''
-this will report all files that should exist
-on the filesystem according to pacman but do not exist
+this will report all files that should exist on the filesystem 
+according to pacman but do not exist on the filesystem
 '''
 
 cmd = 'pacman -Ql'.split(' ')
